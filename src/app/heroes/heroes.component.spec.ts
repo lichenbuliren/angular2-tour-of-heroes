@@ -3,11 +3,11 @@
 import { By }           from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 import { addProviders, async, inject } from '@angular/core/testing';
-import { DashboardComponent } from './dashboard.component';
+import { HeroesComponent } from './heroes.component';
 
-describe('Component: Dashboard', () => {
+describe('Component: Heroes', () => {
   it('should create an instance', () => {
-    let component = DashboardComponent;
+    let component = HeroesComponent;
     expect(component).toBeTruthy();
   });
 });

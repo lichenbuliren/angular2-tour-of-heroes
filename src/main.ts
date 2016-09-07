@@ -1,9 +1,11 @@
 import { bootstrap } from '@angular/platform-browser-dynamic';
 import { enableProdMode } from '@angular/core';
-import { AppComponent, environment, HeroDetailComponent } from './app/';
+
+import { routing } from './app/app.routing';
+import { AppComponent, environment } from './app/';
 
 if (environment.production) {
   enableProdMode();
 }
 
-bootstrap(AppComponent);
+bootstrap(AppComponent, [ routing ]).catch(err => console.log(err));

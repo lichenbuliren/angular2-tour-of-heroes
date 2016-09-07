@@ -40,6 +40,7 @@ const barrels: string[] = [
   'app/heros',
   'app/hero-search',
   'app/hero-detail',
+  'app/heroes',
   /** @cli-barrel */
 ];
 

@@ -7,8 +7,7 @@ import { HeroService } from '../hero.service';
   moduleId: module.id,
   selector: 'hero-detail',
   templateUrl: 'hero-detail.component.html',
-  styleUrls: ['hero-detail.component.css'],
-  providers: [ HeroService ]
+  styleUrls: ['hero-detail.component.css']
 })
 export class HeroDetailComponent implements OnInit  {
   @Input()

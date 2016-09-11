@@ -10,7 +10,7 @@ import { HeroDetailComponent } from '../hero-detail/';
   selector: 'app-heroes',
   templateUrl: 'heroes.component.html',
   styleUrls: ['heroes.component.css'],
-  providers: [HeroService, HeroDetailComponent]
+  providers: [HeroDetailComponent]
 })
 export class HeroesComponent implements OnInit {
 
